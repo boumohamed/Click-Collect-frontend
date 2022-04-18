@@ -19,7 +19,7 @@ export default function Products() {
     const [products, setData] = useState([]);
 
     useEffect(async () => {
-        await axios.get('http://localhost:8080/user/produits')
+        await axios.get('http://localhost:8080/user/produits/')
         .then(res => {
             setData(res.data)
             console.log(res.data)

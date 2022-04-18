@@ -15,7 +15,11 @@ import { Link } from 'react-router-dom';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import Badge from '@mui/material/Badge';
 
-const pages = ['produits'];
+
+
+const pages = ['Produits', 'Panier','admin/Categories'];
+=======
+
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const NavBar = () => {
