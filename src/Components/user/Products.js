@@ -24,7 +24,7 @@ export default function Products() {
             setData(res.data)
             console.log(res.data)
             
-        })}, [])
+        })} ,[])
     
 
   return (
@@ -48,7 +48,7 @@ export default function Products() {
                         <CardMedia
                         component="img"
                         height="140"
-                        image={pr.cat.designation == "Hamburger"? "https://www.mcdonalds.com/is/image/content/dam/uk/nfl/nutrition/nfl-product/product/products/mcdonalds-Big-Mac.jpg":
+                        image={pr.cat.designation === "Hamburger"? "https://www.mcdonalds.com/is/image/content/dam/uk/nfl/nutrition/nfl-product/product/products/mcdonalds-Big-Mac.jpg":
                                                                     "https://leseauxmineralesdoulmes-store.ma/1152-large_default/sidi-ali-pack-6x15l.jpg"}
                         alt="green iguana"
                         />
